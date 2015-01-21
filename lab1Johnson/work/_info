@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dU:\ee371labs\lab1
+vcounter_ripple_4
+Z1 IIm2<0W]gdhI0hdL6hiM9Z0
+Z2 VOj?]6YaTImjgCSdf:WnZ<0
+Z3 dU:\ee371labs\lab1
+Z4 w1421445436
+Z5 8./counter_ripple_4.v
+Z6 F./counter_ripple_4.v
+L0 1
+Z7 OV;L;10.1e;51
+r1
+31
+Z8 !s108 1421445444.178000
+Z9 !s107 ./counter_ripple_4.v|
+Z10 !s90 -reportprogress|300|./counter_ripple_4.v|
+o-O0
+Z11 !s100 U^Ei`iU2;UM>@Wm4FhZ=[2
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter_testbench
+Z12 !s100 Z[<Db80Lc^=[hjE03^:G50
+Z13 IIo43K_]>4kGI[[5EeZ>_^1
+Z14 V[OV^aOXbRCG]:MG2_jdAj2
+R3
+R4
+R5
+R6
+L0 56
+R7
+r1
+31
+R8
+R9
+R10
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vDFlipFlop
+Z15 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z16 !s100 6KcM0X;aNAMYgfaJS1XbI0
+Z17 I5WA>ANcCiNc4Q:BT7^3]a3
+Z18 VmebQhg8PS3TNHCQ9;PYUP0
+Z19 !s105 DFlipFlop_sv_unit
+S1
+Z20 dU:\ee371labs\lab1Johnson
+Z21 w1421443124
+Z22 8./DFlipFlop.sv
+Z23 F./DFlipFlop.sv
+L0 1
+R7
+r1
+31
+Z24 !s90 -reportprogress|300|./DFlipFlop.sv|
+o-O0
+Z25 n@d@flip@flop
+!i10b 1
+!s85 0
+Z26 !s108 1421701951.990000
+Z27 !s107 ./DFlipFlop.sv|
+!s101 -O0
+vjohnson_counter
+R15
+!i10b 1
+Z28 !s100 eBSi2E3dC:RJ6@HnY2T]=2
+Z29 INA?RL^<noYDn^J:cZ92kD3
+Z30 VN^Fde0]:EJD?gH;4H4LYB0
+Z31 !s105 johnson_counter_sv_unit
+S1
+R20
+Z32 w1421698560
+Z33 8./johnson_counter.sv
+Z34 F./johnson_counter.sv
+L0 1
+R7
+r1
+!s85 0
+31
+Z35 !s108 1421701952.919000
+Z36 !s107 ./johnson_counter.sv|
+Z37 !s90 -reportprogress|300|./johnson_counter.sv|
+!s101 -O0
+o-O0
+vjohnson_counter_testbench
+R15
+!i10b 1
+Z38 !s100 cJS0EZN;DKQCIAz[V@4[X2
+Z39 I]>YP@OXYidGUWRoY[PWMk1
+Z40 VJ;gRE^:beFaPe0n3:5cA=3
+R31
+S1
+R20
+R32
+R33
+R34
+L0 13
+R7
+r1
+!s85 0
+31
+R35
+R36
+R37
+!s101 -O0
+o-O0

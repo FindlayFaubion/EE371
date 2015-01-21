@@ -1,0 +1,277 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+do runlab.do
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# ** Error: (vlog-7) Failed to open design unit file "./DFlipFlop.v" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/14.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/altera/14.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./DFlipFlop.v""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_ripple_4
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# ** Error: (vsim-3033) ./counter_ripple_4.v(60): Instantiation of 'counter' failed. The design unit was not found.
+# 
+#         Region: /counter_testbench
+#         Searched libraries:
+#             U:/ee371labs/lab1/work
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./runlab.do PAUSED at line 13
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# ** Error: (vsim-3037) ./counter_ripple_4.v(38): Missing instance name in instantiation of 'DFlipFlop'.
+# 
+#         Region: /counter_testbench/dut
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./runlab.do PAUSED at line 13
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# ** Error: Cannot open macro file: wave.do
+# Error in macro ./runlab.do line 18
+# Cannot open macro file: wave.do
+#     while executing
+# "do wave.do"
+add wave -position end  sim:/counter_testbench/clk
+add wave -position end  sim:/counter_testbench/rst
+add wave -position end  sim:/counter_testbench/out
+add wave -position end  sim:/counter_testbench/i
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/ee371labs/lab1/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: No extended dataflow license exists
+# Break key hit 
+# Break in Module DFlipFlop in file ./DFlipFlop.sv
+# Simulation Breakpoint: Break in Module DFlipFlop in file ./DFlipFlop.sv
+# MACRO ./runlab.do PAUSED at line 26
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/ee371labs/lab1/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module counter_ripple_4
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps counter_testbench 
+# Loading work.counter_testbench
+# Loading work.counter_ripple_4
+# Loading sv_std.std
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: No extended dataflow license exists
+# Break key hit 
+# Simulation stop requested.

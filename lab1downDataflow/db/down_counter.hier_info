@@ -1,0 +1,77 @@
+|down_counter
+rst => rst.IN4
+in_clk => in_clk.IN1
+out[0] << out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] << out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] << out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] << out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|down_counter|clock_divide:clock1
+in => a[0].CLK
+in => a[1].CLK
+in => a[2].CLK
+in => a[3].CLK
+in => a[4].CLK
+in => a[5].CLK
+in => a[6].CLK
+in => a[7].CLK
+in => a[8].CLK
+in => a[9].CLK
+in => a[10].CLK
+in => a[11].CLK
+in => a[12].CLK
+in => a[13].CLK
+in => a[14].CLK
+in => a[15].CLK
+in => a[16].CLK
+in => a[17].CLK
+in => a[18].CLK
+in => a[19].CLK
+in => a[20].CLK
+in => a[21].CLK
+in => a[22].CLK
+in => a[23].CLK
+in => a[24].CLK
+in => a[25].CLK
+in => a[26].CLK
+in => a[27].CLK
+in => a[28].CLK
+in => a[29].CLK
+in => a[30].CLK
+in => a[31].CLK
+clk <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|down_counter|DFlipFlop:dff0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|down_counter|DFlipFlop:dff1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|down_counter|DFlipFlop:dff2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|down_counter|DFlipFlop:dff3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+

@@ -1,0 +1,71 @@
+m255
+K3
+13
+cModel Technology
+Z0 dU:\ee371labs\lab1DownSchematic
+vdown_counter
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 zXY7@4Wo9kKMAiEObJb;M2
+Z3 Id?R<kWCCHk?[;;]AMf?^X3
+Z4 VDGYak3h0oXWaCF7?nEOo<3
+Z5 !s105 down_counter_sv_unit
+S1
+Z6 dU:\ee371labs\lab1DownSchematic
+Z7 w1421701492
+Z8 8./down_counter.sv
+Z9 F./down_counter.sv
+L0 20
+Z10 OV;L;10.1e;51
+r1
+31
+Z11 !s108 1421701532.955000
+Z12 !s107 ./down_counter.sv|
+Z13 !s90 -reportprogress|300|./down_counter.sv|
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vdown_counter_testbench
+R1
+Z14 I^F^YoVOLC]`FE6F_2iH0[3
+Z15 Va>V_aNd[@UD@oXY=]89^?3
+R5
+S1
+R6
+R7
+R8
+R9
+L0 80
+R10
+r1
+31
+R11
+R12
+R13
+o-O0
+!i10b 1
+Z16 !s100 9A9QCi>:SS>3JQ^4hg[[60
+!s85 0
+!s101 -O0
+vjkff_a
+R1
+!i10b 1
+Z17 !s100 OT2@hHYGa6KGLUlaFJiAA2
+Z18 I?n5ezjUWDgF6LSAOJgj8h2
+Z19 V06aElVImX`ViPY8VVEPZF2
+Z20 !s105 jkff_a_sv_unit
+S1
+R6
+Z21 w1421700684
+Z22 8./jkff_a.sv
+Z23 F./jkff_a.sv
+L0 20
+R10
+r1
+!s85 0
+31
+!s108 1421701534.839000
+!s107 ./jkff_a.sv|
+Z24 !s90 -reportprogress|300|./jkff_a.sv|
+!s101 -O0
+o-O0

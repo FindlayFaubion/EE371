@@ -1,0 +1,68 @@
+module counter(
+	clk,
+	rst,
+	out
+);
+
+
+input clk;
+input rst;
+output [3:0] out;
+
+wire	[1:1] gdfx_temp0;
+wire	SYNTHESIZED_WIRE_0;
+wire	SYNTHESIZED_WIRE_1;
+wire	SYNTHESIZED_WIRE_2;
+
+DFlipFlop	dff0(
+	.D(),
+	.clk(clk),
+	.rst(),
+	.q(),
+	.qBar());
+
+
+DFlipFlop	b2v_inst1(
+	.D(),
+	.clk(),
+	.rst(),
+	.q(),
+	.qBar());
+
+
+DFlipFlop	(
+	.D(),
+	.clk(),
+	.rst(),
+	.q(),
+	.qBar());
+
+
+DFlipFlop	b2v_inst3(
+	.D(),
+	.clk(),
+	.rst(),
+	.q(),
+	.qBar());
+
+assign	out[1] = gdfx_temp0[1];
+assign	out[2] = gdfx_temp0[1];
+
+endmodule
+
+
+module counter_testbench();
+	reg clk, rst;
+	wire[3:0] out;
+	
+	counter dut (.clk(clk), .rst(rst), .out(out));
+	
+	integer i;
+	initial begin
+		for(i=0;i<16;i=i+1) begin
+			clk = i%2; #10;
+		end
+	end
+			
+
+endmodule

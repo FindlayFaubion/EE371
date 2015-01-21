@@ -1,0 +1,681 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+do runlab.do
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# ** Error: Cannot open macro file: down_wave.do
+# Error in macro ./runlab.do line 18
+# Cannot open macro file: down_wave.do
+#     while executing
+# "do down_wave.do"
+add wave -position end  sim:/down_counter_testbench/clk
+add wave -position end  sim:/down_counter_testbench/rst
+add wave -position end  sim:/down_counter_testbench/out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/ee371labs/lab1downDataflow/down_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 39
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 39
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 39
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 39
+# MACRO ./runlab.do PAUSED at line 26
+# WARNING: No extended dataflow license exists
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 39
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 39
+# MACRO ./runlab.do PAUSED at line 26
+# WARNING: No extended dataflow license exists
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/ee371labs/lab1downDataflow/down_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 39
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 39
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# ** Error: ./down_counter.sv(1): Identifier must be declared with a port mode: q.
+# -- Compiling module down_counter_testbench
+# ** Error: C:/altera/14.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 8
+# C:/altera/14.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./down_counter.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 46
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 46
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 46
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 46
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 46
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 46
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 50
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 50
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 50
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 50
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 50
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 50
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 50
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 50
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 50
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 50
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 50
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 50
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 50
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 50
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.DFlipFlop
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 50
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 50
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# -- Compiling module clock_divide
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.clock_divide
+# Loading work.DFlipFlop
+# ** Error: (vish-4014) No objects found matching '/down_counter_testbench/clk'.
+# Executing ONERROR command at macro ./down_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module down_counter_testbench at ./down_counter.sv line 53
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 53
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# -- Compiling module clock_divide
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.clock_divide
+# Loading work.DFlipFlop
+# ** Error: (vish-4014) No objects found matching '/down_counter_testbench/clk'.
+# Executing ONERROR command at macro ./down_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# -- Compiling module clock_divide
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.clock_divide
+# Loading work.DFlipFlop
+# ** Error: (vish-4014) No objects found matching '/down_counter_testbench/clk'.
+# Executing ONERROR command at macro ./down_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# -- Compiling module clock_divide
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.clock_divide
+# Loading work.DFlipFlop
+# ** Error: (vish-4014) No objects found matching '/down_counter_testbench/clk'.
+# Executing ONERROR command at macro ./down_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# -- Compiling module clock_divide
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.clock_divide
+# Loading work.DFlipFlop
+# ** Error: (vish-4014) No objects found matching '/down_counter_testbench/clk'.
+# Executing ONERROR command at macro ./down_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+run
+run -continue
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# -- Compiling module clock_divide
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.clock_divide
+# Loading work.DFlipFlop
+# ** Error: (vish-4014) No objects found matching '/down_counter_testbench/clk'.
+# Executing ONERROR command at macro ./down_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./runlab.do PAUSED at line 26
+run -continue
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# -- Compiling module clock_divide
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.clock_divide
+# Loading work.DFlipFlop
+# ** Error: (vish-4014) No objects found matching '/down_counter_testbench/clk'.
+# Executing ONERROR command at macro ./down_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit 
+# Break in Module down_counter_testbench at ./down_counter.sv line 51
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 51
+# MACRO ./runlab.do PAUSED at line 26
+run -continue
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./runlab.do PAUSED at line 26
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# -- Compiling module clock_divide
+# ** Error: ./down_counter.sv(81): near "10000000000": Numeric value exceeds 32-bit capacity.
+# ** Error: ./down_counter.sv(89): near "5000000000": Numeric value exceeds 32-bit capacity.
+# ** Error: C:/altera/14.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 8
+# C:/altera/14.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./down_counter.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module down_counter
+# -- Compiling module down_counter_testbench
+# -- Compiling module clock_divide
+# 
+# Top level modules:
+# 	down_counter_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps down_counter_testbench 
+# Loading sv_std.std
+# Loading work.down_counter_testbench
+# Loading work.down_counter
+# Loading work.clock_divide
+# Loading work.DFlipFlop
+# ** Error: (vish-4014) No objects found matching '/down_counter_testbench/clk'.
+# Executing ONERROR command at macro ./down_wave.do line 3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit 
+# Break in Module clock_divide at ./down_counter.sv line 88
+# Simulation Breakpoint: Break in Module clock_divide at ./down_counter.sv line 88
+# MACRO ./runlab.do PAUSED at line 26
+run -continue
+# Break key hit 
+# Break in Module down_counter_testbench at ./down_counter.sv line 52
+# Simulation Breakpoint: Break in Module down_counter_testbench at ./down_counter.sv line 52
+# MACRO ./runlab.do PAUSED at line 26
