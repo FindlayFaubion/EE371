@@ -18,15 +18,32 @@ int main(void)
         char userContinue = ' ';
 
 
-        printf("Do you want to convert from foreign currency to USD (y/n) (n means converting from USD to foreign currency)? ");
+        printf("Do you want to convert from foreign currency to USD (y/n) (n means converting \n");
+        printf("from USD to foreign currency)? ");
         scanf("%c", &choice);
         // remove newline from input buffer
         getchar();
+
+        while(choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N'){
+            printf("That is not a valid choice. Do you want to convert from foreign currency \n");
+            printf("to USD (y/n) (n means converting from USD to foreign currency)? ");
+            scanf("%c", &choice);
+            getchar();
+
+        }
 
         printf("How much is 1 USD worth in that currency (exchange rate)? ");
         scanf("%f", &rate);
         // remove newline from input buffer
         getchar();
+
+        while(rate == 0){
+            printf("That is not a valid exchange rate. Please enter how much 1 USD is worth in\n");
+            printf("that currency (exchange rate)? ");
+            scanf("%f", &rate);
+            getchar();
+
+        }
 
         if(choice == 'y' || choice == 'Y') {
             printf("Converting from foreign currency to USD\n");
